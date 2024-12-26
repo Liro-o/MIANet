@@ -1,0 +1,26 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: /home/andrewuuu/Code_Sources/Multispectral Pedestrian Detection/mutiYOLOv8/Datasets/kaist  # dataset root dir
+#path: /home/seucar/LiuZhichao/multiYolov8/Datasets/kaist  # dataset root dir
+path: F:/lic_files/ultralytics-main/datasets/DOTAv1 # dataset root dir
+# 下面这些路径是固定的，都不要改，只改上面的'path'
+train: images/train  # train images (relative to 'path') 128 images
+val: images/test  # val images (relative to 'path'llvip) 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: small-vehicle
+  1: large-vehicle
+  2: plane
+  3: storage-tanl
+  4: ship
+  5: harbor
+  6: ground-track-field
+  7: soccer-ball-filed
+  8: tennis-cours
+  9: swimming-pool
+  10: baseball-diamond
+  11: round abount
+  12: basketball-court
+  13: bridge
+  14: helicopter
